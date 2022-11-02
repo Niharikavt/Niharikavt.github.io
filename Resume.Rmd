@@ -1,0 +1,50 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+## EDUCATION
+
+### MAILMAN SCHOOL OF PUBLIC HEALTH - COLUMBIA UNIVERSITY
+
+Master of Public Health (MPH) in Epidemiology and Certificate in Applied Biostatistics and Public Health Data Science
+•	Dean's Longevity Fellow
+•	Relevant coursework: Applied Regression, Analysis of Categorical Data , Data Science I, Health Economics, Applications of Epidemiologic Research Methods SAS, Clinical Epidemiology, Systematic Review and Meta-Analysis.
+
+### BHARATI VIDYAPEETH DENTAL COLLEGE AND HOSPITAL
+
+Bachelor of Dental Surgery (BDS) GPA: 3.75
+
+## PROFESSIONAL EXPERIENCE 
+
+### DEAN'S SUMMER LONGEVITY FELLOW | ELDERA & COLUMBIA UNIVERSITY
+
+•	Designed and conducted an original program evaluation tool and research design, which culminated in a manuscript currently in the pipeline for publication.
+•	Collecting data for a pilot project.
+
+### SUMMER PRACTICUM FELLOW | COLUMBIA MEDICINE- DIVISION OF INFECTIOUS DISEASES
+
+•	Conducted a systematic scoping review of cost and cost-effectiveness of long term PrEP in low and middle income countries.
+•	Identified search terms and conducted literature search in 9 different databases.
+•	Interpreted and extracted data on over 1300 cost and cost-effectiveness analysis articles, screened 1300 abstracts and triaged 83 articles for the systematic scoping review.
+
+### TEACHING ASSISTANT - ReMA QUANTITATIVE FOUNDATIONS 2022 | COLUMBIA UNIVERSITY
+
+•	Providing academic support to over 800 first year graduate students by acting as a liaison between students and faculty.
+•	Conducting weekly labs.
+
+### GRADUATE RESEARCH ASST | SOLER - COLUMBIA UNIVERSITY
+
+•	Supporting all faculty and SOLER research projects.
+
+### DENTAL SURGEON | SMILE DENTAL CLINIC
+
+•	Diagnosed and clinically treated more than 1000 cases of various oral diseases.
+•	Trained and supervised clinic staff and managed the data of over 5000 patients.
+
+## SKILLS
+
+•	SAS, R, Stata, Microsoft Office (Excel, PowerPoint, Word), HIPAA certified, CITI trained
+
