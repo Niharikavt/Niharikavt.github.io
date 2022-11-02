@@ -8,7 +8,7 @@ output:
 ---
 ## About Me
 
-![](images/niharika.jpg)
+<img src="images/niharika.jpg" style="width:55%">
 
 I am a Masters in Public Health Candidate at [Columbia Mailman School of Public Health](https://www.publichealth.columbia.edu/) with a 
 certificate in Applied Biostatistics and Public Health Data Science.
