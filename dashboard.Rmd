@@ -1,0 +1,58 @@
+---
+title: "dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r load_data, include = FALSE}
+data("rest_inspec")
+nyc_rest_inspec = 
+  rest_inspec %>% 
+  sample_n(5000) %>% 
+  select(action, boro, cuisine_description, inspection_date, inspection_type, dba, score, grade, critical_flag) %>% 
+  filter(inspection_type == "Cycle Inspection / Re-inspection") %>% 
+  drop_na(score, grade)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r boxplot}
+nyc_rest_inspec %>% 
+mutate(cuisine_description = fct_reorder(cuisine_description, score)) %>% 
+  plot_ly(y = ~score, color = ~cuisine_description, type = "box", colors = "viridis")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r scatterplot}
+nyc_rest_inspec %>% 
+  mutate(text_label = str_c("\nGrade: ", grade, "\nBorough: ", boro)) %>% 
+  plot_ly(
+    x = ~inspection_date, y = ~score, type = "scatter", mode = "markers",
+    color = ~boro, text = ~text_label, alpha = 0.5)
+```
+
+### Chart C
+
+```{r bar chart}
+nyc_rest_inspec %>% 
+  count(boro, critical_flag) %>% 
+  mutate(boro = fct_reorder(boro, n)) %>% 
+  plot_ly(x = ~boro, y = ~n, color = ~critical_flag, type = "bar", colors = "viridis")
+```
+```
