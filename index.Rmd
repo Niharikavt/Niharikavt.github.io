@@ -10,7 +10,7 @@ output:
 
 ![](images/niharika.jpg)
 
-I am a Masters in Public Health Candidate at [Columbia Mailman School of Public Health] (https://www.publichealth.columbia.edu/) with a 
+I am a Masters in Public Health Candidate at [Columbia Mailman School of Public Health](https://www.publichealth.columbia.edu/) with a 
 certificate in Applied Biostatistics and Public Health Data Science.
 
 I am interested in the intersection of epidemiology, data analysis and infectious diseases. Through my research I want to tackle issues related to economic cost and cost-effectiveness in HIV prevention interventions.
