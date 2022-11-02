@@ -1,0 +1,18 @@
+---
+title: "Niharika Telrandhe"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+## About Me
+
+![](images/niharika.jpg)
+
+I am a Masters in Public Health Candidate at [Columbia Mailman School of Public Health] (https://www.publichealth.columbia.edu/) with a 
+certificate in Applied Biostatistics and Public Health Data Science.
+
+I am interested in the intersection of epidemiology, data analysis and infectious diseases. Through my research I want to tackle issues related to economic cost and cost-effectiveness in HIV prevention interventions.
+
+My background is in dentistry and I am advocating to bring cost and cost-effectiveness of infectious disease prevention interventions into discussion at a global level in public health.
